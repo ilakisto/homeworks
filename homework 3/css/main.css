@@ -1,0 +1,44 @@
+body{
+    background: lightseagreen;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+   
+}
+
+.button12{
+    display: flex;
+    gap: 10vw;
+}
+
+.clickbox{
+    padding: 15px 30px;
+    font-size: 1.5vw;
+    border-radius: 20vw;
+    cursor: pointer;
+    border: 0;
+    transition: background-color 0.5s, margin 0.5s;
+}
+.neo{
+    background: rgb(230, 232, 235);
+    color: #2c2a2a;
+    box-shadow: 
+    9px 9px 15px  #d2d1d1,
+    -5px -5px 10px #e9e8e8;
+}
+.neo:active{
+    box-shadow: 
+    inset 8px 8px 13px #d2d1d1,
+    inset -5px -5px 10px #e9e8e8;
+}
+
+.glass{
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: #fff;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+
+
